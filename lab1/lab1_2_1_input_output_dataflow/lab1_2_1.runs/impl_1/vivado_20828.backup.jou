@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Feb 23 00:19:36 2022
+# Process ID: 20828
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab1/lab1_2_1_input_output_dataflow/lab1_2_1.runs/impl_1
+# Command line: vivado.exe -log input_output_dataflow.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source input_output_dataflow.tcl -notrace
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab1/lab1_2_1_input_output_dataflow/lab1_2_1.runs/impl_1/input_output_dataflow.vdi
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab1/lab1_2_1_input_output_dataflow/lab1_2_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source input_output_dataflow.tcl -notrace
