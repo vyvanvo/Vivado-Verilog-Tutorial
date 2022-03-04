@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1645527204">
+  <File Type="BITSTR-BMM" Name="bcd_to_7segment_bd.bmm"/>
   <File Type="ROUTE-PWR" Name="bcd_to_7segment_power_routed.rpt"/>
   <File Type="PA-TCL" Name="bcd_to_7segment.tcl"/>
-  <File Type="BITSTR-BMM" Name="bcd_to_7segment_bd.bmm"/>
+  <File Type="OPT-DCP" Name="bcd_to_7segment_opt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="bcd_to_7segment_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="bcd_to_7segment_reports.tcl"/>
-  <File Type="OPT-DCP" Name="bcd_to_7segment_opt.dcp"/>
   <File Type="OPT-DRC" Name="bcd_to_7segment_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="bcd_to_7segment.hwdef"/>
   <File Type="PWROPT-DCP" Name="bcd_to_7segment_pwropt.dcp"/>
@@ -25,19 +25,20 @@
   <File Type="ROUTE-BLACKBOX-DCP" Name="bcd_to_7segment_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="bcd_to_7segment_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="bcd_to_7segment_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="bcd_to_7segment_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="bcd_to_7segment.ltx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="bcd_to_7segment_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="bcd_to_7segment_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="bcd_to_7segment.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="bcd_to_7segment_methodology_drc_routed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="bcd_to_7segment_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="bcd_to_7segment_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="bcd_to_7segment.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="bcd_to_7segment_methodology_drc_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="bcd_to_7segment_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="bcd_to_7segment_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="bcd_to_7segment_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="bcd_to_7segment_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="bcd_to_7segment_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="bcd_to_7segment_timing_summary_routed.rpx"/>
+  <File Type="RDI-RDI" Name="bcd_to_7segment.vdi"/>
   <File Type="ROUTE-CLK" Name="bcd_to_7segment_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="bcd_to_7segment_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="bcd_to_7segment_bus_skew_routed.pb"/>
@@ -48,7 +49,6 @@
   <File Type="BITSTR-RBT" Name="bcd_to_7segment.rbt"/>
   <File Type="BITSTR-NKY" Name="bcd_to_7segment.nky"/>
   <File Type="BG-DRC" Name="bcd_to_7segment.drc"/>
-  <File Type="RDI-RDI" Name="bcd_to_7segment.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>

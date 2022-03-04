@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar  3 18:13:06 2022
+# Process ID: 22144
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab4/lab4_1_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21660 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab4\lab4_1_1\lab4_1_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab4/lab4_1_1/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab4/lab4_1_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab4/lab4_1_1/lab4_1_1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+launch_simulation
+launch_simulation
+close_design
+synth_design -rtl -name rtl_1
+launch_simulation

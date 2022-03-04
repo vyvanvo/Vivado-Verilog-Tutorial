@@ -1,0 +1,181 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Feb 27 15:58:37 2022
+# Process ID: 2780
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16172 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab2\lab2_3_1_full_adder_4bit\lab2_3_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit'
+INFO: [Project 1-313] Project file moved from 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:10 . Memory (MB): peak = 829.391 ; gain = 211.652
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: full_adder_4bit
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1261.184 ; gain = 151.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'full_adder_4bit' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:36]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder_4bit' (2#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:36]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1301.039 ; gain = 190.945
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1301.039 ; gain = 190.945
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1301.039 ; gain = 190.945
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1431.359 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 1478.207 ; gain = 368.113
+8 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:18 . Memory (MB): peak = 1478.207 ; gain = 591.980
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1502.473 ; gain = 11.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'full_adder_4bit' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:81]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder_4bit' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:81]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1540.043 ; gain = 48.812
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1540.043 ; gain = 48.812
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1540.043 ; gain = 48.812
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1540.043 ; gain = 48.812
+refresh_design
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1577.961 ; gain = 36.191
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'full_adder_4bit' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:36]
+INFO: [Synth 8-6157] synthesizing module 'full_adder' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'full_adder_4bit' (2#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.srcs/sources_1/new/full_adder.v:36]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1616.922 ; gain = 75.152
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1616.922 ; gain = 75.152
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1616.922 ; gain = 75.152
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1618.211 ; gain = 76.441
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Feb 27 19:48:15 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Feb 27 19:49:00 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Feb 27 19:50:30 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1635.816 ; gain = 13.992
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.runs/impl_1/full_adder_4bit.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab2/lab2_3_1_full_adder_4bit/lab2_3_1.runs/impl_1/full_adder_4bit.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 27 19:55:01 2022...

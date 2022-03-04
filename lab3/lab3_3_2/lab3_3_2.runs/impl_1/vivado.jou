@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar  3 17:53:17 2022
+# Process ID: 17676
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab3/lab3_3_2/lab3_3_2.runs/impl_1
+# Command line: vivado.exe -log multiplier.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source multiplier.tcl -notrace
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab3/lab3_3_2/lab3_3_2.runs/impl_1/multiplier.vdi
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab3/lab3_3_2/lab3_3_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source multiplier.tcl -notrace
