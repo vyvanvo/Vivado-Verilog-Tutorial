@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar  9 17:48:44 2022
+# Process ID: 11780
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_1_3_D_latch
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9844 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab5\lab5_1_3_D_latch\lab5_1_3.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_1_3_D_latch/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_1_3_D_latch\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_1_3_D_latch/lab5_1_3.xpruupdate_compile_order -fileset sources_1
+

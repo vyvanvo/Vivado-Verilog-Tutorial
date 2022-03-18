@@ -1,0 +1,19 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Test passed: gray_code = 0000
+Test passed: gray_code = 0001
+Test passed: gray_code = 0011
+Test passed: gray_code = 0010
+Test passed: gray_code = 0110
+Test passed: gray_code = 0111
+Test passed: gray_code = 0101
+Test passed: gray_code = 0100
+Test passed: gray_code = 1100
+Test passed: gray_code = 1101
+Test passed: gray_code = 1111
+Test failed: got gray_code = 1110, expected gray_code = 1011
+Test passed: gray_code = 1010
+Test passed: gray_code = 1011
+Test passed: gray_code = 1001
+Test passed: gray_code = 1000
+$finish called at time : 160 ns : File "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab7/lab7_1_4/lab7_1_4.srcs/sim_1/new/bcd_to_gray_code_tb.v" Line 179

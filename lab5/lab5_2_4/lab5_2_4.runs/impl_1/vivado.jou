@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Mar  9 22:56:59 2022
+# Process ID: 13508
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_2_4/lab5_2_4.runs/impl_1
+# Command line: vivado.exe -log D_flipflop_with_ce.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source D_flipflop_with_ce.tcl -notrace
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_2_4/lab5_2_4.runs/impl_1/D_flipflop_with_ce.vdi
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab5/lab5_2_4/lab5_2_4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source D_flipflop_with_ce.tcl -notrace

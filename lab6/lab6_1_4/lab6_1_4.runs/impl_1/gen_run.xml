@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1646970880">
+  <File Type="BITSTR-BMM" Name="left_shift_register_parallel_in_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="left_shift_register_parallel_in_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="left_shift_register_parallel_in_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="left_shift_register_parallel_in_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="left_shift_register_parallel_in.tcl"/>
+  <File Type="OPT-TIMING" Name="left_shift_register_parallel_in_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="left_shift_register_parallel_in_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="left_shift_register_parallel_in_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="left_shift_register_parallel_in_reports.tcl"/>
+  <File Type="OPT-DRC" Name="left_shift_register_parallel_in_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="left_shift_register_parallel_in.hwdef"/>
+  <File Type="PWROPT-DCP" Name="left_shift_register_parallel_in_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="left_shift_register_parallel_in_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="left_shift_register_parallel_in_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="left_shift_register_parallel_in_placed.dcp"/>
+  <File Type="PLACE-IO" Name="left_shift_register_parallel_in_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="left_shift_register_parallel_in_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="left_shift_register_parallel_in_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="left_shift_register_parallel_in_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="left_shift_register_parallel_in_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="left_shift_register_parallel_in_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="left_shift_register_parallel_in_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="left_shift_register_parallel_in.bgn"/>
+  <File Type="PLACE-TIMING" Name="left_shift_register_parallel_in_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="left_shift_register_parallel_in_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="left_shift_register_parallel_in.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="left_shift_register_parallel_in_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="left_shift_register_parallel_in_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="left_shift_register_parallel_in_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="left_shift_register_parallel_in.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="left_shift_register_parallel_in_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="left_shift_register_parallel_in_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="left_shift_register_parallel_in_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="left_shift_register_parallel_in_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="left_shift_register_parallel_in_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="left_shift_register_parallel_in_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="left_shift_register_parallel_in.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="left_shift_register_parallel_in_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="left_shift_register_parallel_in.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="left_shift_register_parallel_in_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="left_shift_register_parallel_in_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="left_shift_register_parallel_in.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="left_shift_register_parallel_in_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="left_shift_register_parallel_in_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="left_shift_register_parallel_in_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="left_shift_register_parallel_in_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="left_shift_register_parallel_in_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="left_shift_register_parallel_in_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="left_shift_register_parallel_in_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="left_shift_register_parallel_in_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="left_shift_register_parallel_in_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="left_shift_register_parallel_in_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="left_shift_register_parallel_in_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="left_shift_register_parallel_in_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="left_shift_register_parallel_in_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="left_shift_register_parallel_in_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="left_shift_register_parallel_in_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="left_shift_register_parallel_in_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="left_shift_register_parallel_in_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="left_shift_register_parallel_in_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="left_shift_register_parallel_in_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="left_shift_register_parallel_in.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="left_shift_register_parallel_in_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="left_shift_register_parallel_in.rbt"/>
+  <File Type="BITSTR-NKY" Name="left_shift_register_parallel_in.nky"/>
+  <File Type="BG-DRC" Name="left_shift_register_parallel_in.drc"/>
+  <File Type="RDI-RDI" Name="left_shift_register_parallel_in.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/left_shift_register_parallel_in.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="left_shift_register_parallel_in"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
