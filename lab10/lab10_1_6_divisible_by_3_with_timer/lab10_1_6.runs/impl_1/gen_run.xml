@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1648351015">
+  <File Type="BITSTR-BMM" Name="divisible_by_3_with_timer_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="divisible_by_3_with_timer_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="divisible_by_3_with_timer_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="divisible_by_3_with_timer_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="divisible_by_3_with_timer.tcl"/>
+  <File Type="OPT-TIMING" Name="divisible_by_3_with_timer_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="divisible_by_3_with_timer_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="divisible_by_3_with_timer_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="divisible_by_3_with_timer_reports.tcl"/>
+  <File Type="OPT-DRC" Name="divisible_by_3_with_timer_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="divisible_by_3_with_timer.hwdef"/>
+  <File Type="PWROPT-DCP" Name="divisible_by_3_with_timer_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="divisible_by_3_with_timer_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="divisible_by_3_with_timer_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="divisible_by_3_with_timer_placed.dcp"/>
+  <File Type="PLACE-IO" Name="divisible_by_3_with_timer_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="divisible_by_3_with_timer_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="divisible_by_3_with_timer_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="divisible_by_3_with_timer_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="divisible_by_3_with_timer_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="divisible_by_3_with_timer_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="divisible_by_3_with_timer_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="divisible_by_3_with_timer.bgn"/>
+  <File Type="PLACE-TIMING" Name="divisible_by_3_with_timer_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="divisible_by_3_with_timer_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="divisible_by_3_with_timer.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="divisible_by_3_with_timer_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="divisible_by_3_with_timer_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="divisible_by_3_with_timer_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="divisible_by_3_with_timer.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="divisible_by_3_with_timer_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="divisible_by_3_with_timer_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="divisible_by_3_with_timer_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="divisible_by_3_with_timer_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="divisible_by_3_with_timer_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="divisible_by_3_with_timer_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="divisible_by_3_with_timer.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="divisible_by_3_with_timer_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="divisible_by_3_with_timer.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="divisible_by_3_with_timer_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="divisible_by_3_with_timer_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="divisible_by_3_with_timer.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="divisible_by_3_with_timer_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="divisible_by_3_with_timer_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="divisible_by_3_with_timer_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="divisible_by_3_with_timer_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="divisible_by_3_with_timer_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="divisible_by_3_with_timer_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="divisible_by_3_with_timer_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="divisible_by_3_with_timer_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="divisible_by_3_with_timer_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="divisible_by_3_with_timer_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="divisible_by_3_with_timer_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="divisible_by_3_with_timer_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="divisible_by_3_with_timer_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="divisible_by_3_with_timer_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="divisible_by_3_with_timer_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="divisible_by_3_with_timer_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="divisible_by_3_with_timer_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="divisible_by_3_with_timer_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="divisible_by_3_with_timer_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="divisible_by_3_with_timer.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="divisible_by_3_with_timer_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="divisible_by_3_with_timer.rbt"/>
+  <File Type="BITSTR-NKY" Name="divisible_by_3_with_timer.nky"/>
+  <File Type="BG-DRC" Name="divisible_by_3_with_timer.drc"/>
+  <File Type="RDI-RDI" Name="divisible_by_3_with_timer.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/divisible_by_3.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="divisible_by_3_with_timer"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

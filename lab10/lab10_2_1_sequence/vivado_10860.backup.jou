@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 01:39:14 2022
+# Process ID: 10860
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2648 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab10\lab10_2_1\lab10_2_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/lab10_2_1.xpr
+update_compile_order -fileset sources_1
+file mkdir C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/lab10_2_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/lab10_2_1.srcs/sim_1/new/moore_fsm_tb.v w ]
+add_files -fileset sim_1 C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/lab10_2_1.srcs/sim_1/new/moore_fsm_tb.v
+update_compile_order -fileset sim_1

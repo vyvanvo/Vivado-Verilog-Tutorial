@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 20:48:14 2022
+# Process ID: 19240
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20900 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab10\lab10_3_1\lab10_3_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1\vivado.jou
+#-----------------------------------------------------------
+start_gopeopen_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.xupdupdate_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close [ open C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM_tb.v w ]
+add_files C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM_tb.v
+update_compile_order -fileset sources_1
+refresh_design
+add_files -norecurse C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM.v
+update_compile_order -fileset sources_1
+add_files -norecurse C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM.v
+close [ open C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm_using_ROM.v w ]
+add_files C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm_using_ROM.v
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm_using_ROM.v] -no_script -reset -force -quiet
+remove_files  C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm_using_ROM.v
+file mkdir C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sim_1/new/counter_fsm_using_ROM_tb.v w ]
+add_files -fileset sim_1 C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sim_1/new/counter_fsm_using_ROM_tb.v
+export_ip_user_files -of_objects  [get_files C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm.v] -no_script -reset -force -quiet
+remove_files  C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm.v
+export_ip_user_files -of_objects  [get_files C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM.v] -no_script -reset -force -quiet
+remove_files  C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM.v
+export_ip_user_files -of_objects  [get_files C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM_tb.v] -no_script -reset -force -quiet
+remove_files  C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/mealy_fsm_using_ROM_tb.v
+close_design
+add_files -norecurse C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/lab10_3_1.srcs/sources_1/new/counter_fsm_using_ROM.v
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+synth_design -rtl -name rtl_1
+launch_simulation
+launch_simulation
+source counter_fsm_using_ROM_tb.tcl
+save_wave_config {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/counter_fsm_using_ROM_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/counter_fsm_using_ROM_tb_behav.wcfg
+set_property xsim.view C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_1/counter_fsm_using_ROM_tb_behav.wcfg [get_filesets sim_1]
+close_sim

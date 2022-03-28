@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 24 19:58:25 2022
+# Process ID: 20844
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by3/lab10_1_1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by3/lab10_1_1.sim/sim_1/behav/xsim/xsim.dir/mealy_fsm_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by3/lab10_1_1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by3/lab10_1_1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by3/lab10_1_1.sim/sim_1/behav/xsim/xsim.dir/mealy_fsm_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by3/lab10_1_1.sim/sim_1/behav/xsim/xsim.dir/mealy_fsm_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Mar 24 19:58:47 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:23 . Memory (MB): peak = 109.285 ; gain = 17.855
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 24 19:58:47 2022...

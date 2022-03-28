@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 20:32:21 2022
+# Process ID: 14400
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6828 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab10\lab10_1_1_divisible_by_3\lab10_1_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+open_wave_config C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/mealy_fsm_tb_behav.wcfg
+source mealy_fsm_tb.tcl
+close_sim

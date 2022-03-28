@@ -1,0 +1,449 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Mar 28 03:17:50 2022
+# Process ID: 19448
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16724 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab10\lab10_4_1\lab10_4_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:13 . Memory (MB): peak = 862.438 ; gain = 229.898
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:26:42 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Mar 28 03:28:33 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar 28 03:30:52 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+open_hw_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2042.668 ; gain = 1100.266
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:35:42 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:37:17 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:38:38 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:46:57 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:51:46 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: up_down_counter_fsm
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2540.367 ; gain = 175.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'up_down_counter_fsm' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+	Parameter max_num bound to: 9999 - type: integer 
+	Parameter start bound to: 0 - type: integer 
+	Parameter s_wait bound to: 1 - type: integer 
+	Parameter up bound to: 2 - type: integer 
+	Parameter down bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'timer' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+	Parameter max_cnt bound to: 25000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+INFO: [Synth 8-226] default block is never used [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:158]
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7seg' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7seg' (2#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'up_down_counter_fsm' (3#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2575.918 ; gain = 210.980
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2596.836 ; gain = 231.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2596.836 ; gain = 231.898
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2704.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 2738.445 ; gain = 373.508
+11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 2738.445 ; gain = 416.961
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 03:54:40 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+close_design
+launch_runs impl_1 -jobs 4
+[Mon Mar 28 03:56:15 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar 28 03:57:56 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+disconnect_hw_server localhost:3121
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: up_down_counter_fsm
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'up_down_counter_fsm' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+	Parameter max_num bound to: 9999 - type: integer 
+	Parameter start bound to: 0 - type: integer 
+	Parameter s_wait bound to: 1 - type: integer 
+	Parameter up bound to: 2 - type: integer 
+	Parameter down bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'timer' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+	Parameter max_cnt bound to: 25000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+INFO: [Synth 8-226] default block is never used [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:158]
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7seg' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7seg' (2#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'up_down_counter_fsm' (3#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3147.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 3147.461 ; gain = 0.000
+10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 3147.461 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 04:03:34 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Mar 28 04:05:16 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+close_design
+close_hw
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar 28 04:07:02 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_hw
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: up_down_counter_fsm
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'up_down_counter_fsm' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+	Parameter max_num bound to: 9999 - type: integer 
+	Parameter start bound to: 0 - type: integer 
+	Parameter s_wait bound to: 1 - type: integer 
+	Parameter up bound to: 2 - type: integer 
+	Parameter down bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'timer' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+	Parameter max_cnt bound to: 25000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+INFO: [Synth 8-226] default block is never used [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:161]
+WARNING: [Synth 8-567] referenced signal 'num' should be on the sensitivity list [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:159]
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7seg' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7seg' (2#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'up_down_counter_fsm' (3#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3147.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 3147.461 ; gain = 0.000
+10 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 3147.461 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 04:21:04 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Mar 28 04:22:07 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+close_design
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 04:22:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Mar 28 04:23:39 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar 28 04:25:03 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: up_down_counter_fsm
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'up_down_counter_fsm' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+	Parameter max_num bound to: 9999 - type: integer 
+	Parameter start bound to: 0 - type: integer 
+	Parameter s_wait bound to: 1 - type: integer 
+	Parameter up bound to: 2 - type: integer 
+	Parameter down bound to: 3 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'timer' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+	Parameter max_cnt bound to: 25000000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:94]
+INFO: [Synth 8-226] default block is never used [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:161]
+INFO: [Synth 8-6157] synthesizing module 'bcd_to_7seg' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'bcd_to_7seg' (2#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'up_down_counter_fsm' (3#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.srcs/sources_1/new/up_down_counter_fsm.v:120]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 3147.461 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/Basys3_Master.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3147.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3147.461 ; gain = 0.000
+10 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 3147.461 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Mon Mar 28 04:29:02 2022] Launched synth_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Mar 28 04:39:57 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Mar 28 04:41:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_4_1/lab10_4_1.runs/impl_1/up_down_counter_fsm.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183B462B7A
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 28 04:46:59 2022...

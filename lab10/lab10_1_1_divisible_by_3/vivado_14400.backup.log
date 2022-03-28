@@ -1,0 +1,150 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 20:32:21 2022
+# Process ID: 14400
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6828 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab10\lab10_1_1_divisible_by_3\lab10_1_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:00:28 . Memory (MB): peak = 889.121 ; gain = 22.730
+update_compile_order -fileset sources_1
+sexit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 26 20:40:45 2022...
+ing synth_design
+Using part: xc7a35tcpg236-1
+Top: mealy_fsm
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1251.449 ; gain = 178.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'mealy_fsm' [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:23]
+	Parameter S0 bound to: 1'b0 
+	Parameter S1 bound to: 1'b1 
+WARNING: [Synth 8-324] index 4 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 5 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 6 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 7 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 4 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 5 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 6 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-324] index 7 out of range [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:43]
+WARNING: [Synth 8-5788] Register num_of_ones_reg in module mealy_fsm is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:55]
+WARNING: [Synth 8-5788] Register yout_reg in module mealy_fsm is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'mealy_fsm' (1#1) [C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1310.301 ; gain = 237.527
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1310.301 ; gain = 237.527
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1310.301 ; gain = 237.527
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1410.090 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:42 ; elapsed = 00:00:23 . Memory (MB): peak = 1448.586 ; gain = 375.812
+6 Infos, 10 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:35 . Memory (MB): peak = 1448.586 ; gain = 559.465
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'mealy_fsm_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj mealy_fsm_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sources_1/new/mealy_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mealy_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sim_1/new/mealy_fsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mealy_fsm_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.sim/sim_1/behav/xsim'
+"xelab -wto 3ffad15acb6949cabacf63f5496b0683 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mealy_fsm_tb_behav xil_defaultlib.mealy_fsm_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 3ffad15acb6949cabacf63f5496b0683 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot mealy_fsm_tb_behav xil_defaultlib.mealy_fsm_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.mealy_fsm
+Compiling module xil_defaultlib.mealy_fsm_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot mealy_fsm_tb_behav
+
+****** Webtalk v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.sim/sim_1/behav/xsim/xsim.dir/mealy_fsm_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.sim/sim_1/behav/xsim/xsim.dir/mealy_fsm_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Mar 26 20:36:36 2022. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2019.1/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 91.402 ; gain = 0.000
+INFO: [Common 17-206] Exiting Webtalk at Sat Mar 26 20:36:36 2022...
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 1448.586 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '22' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "mealy_fsm_tb_behav -key {Behavioral:sim_1:Functional:mealy_fsm_tb} -tclbatch {mealy_fsm_tb.tcl} -view {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/mealy_fsm_tb_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+open_wave_config C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/mealy_fsm_tb_behav.wcfg
+source mealy_fsm_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 280 ns : File "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_1_1_divisible_by_3/lab10_1_1.srcs/sim_1/new/mealy_fsm_tb.v" Line 66
+xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:05 . Memory (MB): peak = 1448.586 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'mealy_fsm_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:19 ; elapsed = 00:00:32 . Memory (MB): peak = 1448.586 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:31 . Memory (MB): peak = 1453.645 ; gain = 5.059
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 26 20:40:39 2022...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 23:12:31 2022
+# Process ID: 19588
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1_sequence/lab10_2_1.runs/synth_1
+# Command line: vivado.exe -log moore_fsm.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source moore_fsm.tcl
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1_sequence/lab10_2_1.runs/synth_1/moore_fsm.vds
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1_sequence/lab10_2_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source moore_fsm.tcl -notrace

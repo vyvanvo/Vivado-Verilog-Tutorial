@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_2/lab10_3_2.srcs/sources_1/new/counter_fsm_using_ROM_with_timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-311] analyzing module counter_fsm_using_ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_2/lab10_3_2.srcs/sim_1/new/coutner_fsm_using_ROM_with_timer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_fsm_using_ROM_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_3_2/lab10_3_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

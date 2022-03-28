@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 24 16:45:13 2022
+# Process ID: 12112
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19568 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab8\lab8_2_1_counter_7seg\lab8_2_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/lab8_2_1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source counter_7seg.tcl
+file mkdir C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/lab8_2_1.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/lab8_2_1.srcs/sim_1/new/counter_7seg_tb.v w ]
+add_files -fileset sim_1 C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/lab8_2_1.srcs/sim_1/new/counter_7seg_tb.v
+update_compile_order -fileset sim_1
+close_design
+close_sim
+update_compile_order -fileset sim_1
+launch_simulation
+source counter_7seg_tb.tcl
+close_sim
+launch_simulation
+source counter_7seg_tb.tcl
+synth_design -rtl -name rtl_1
+close_sim
+launch_simulation
+source counter_7seg_tb.tcl
+close_sim
+launch_simulation
+source counter_7seg_tb.tcl
+close_sim
+launch_simulation
+source counter_7seg_tb.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run impl_1
+close_sim
+close_design
+add_files -fileset constrs_1 -norecurse C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/Basys3_Master.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/lab8_2_1.runs/impl_1/counter_7seg.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_2_1_counter_7seg/lab8_2_1.runs/impl_1/counter_7seg.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

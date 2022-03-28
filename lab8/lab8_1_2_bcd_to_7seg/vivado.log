@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Mar 24 17:16:06 2022
+# Process ID: 12308
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_1_2_bcd_to_7seg
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11256 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab8\lab8_1_2_bcd_to_7seg\lab8_1_2.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_1_2_bcd_to_7seg/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_1_2_bcd_to_7seg\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_1_2_bcd_to_7seg/lab8_1_2.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_1_2_bcd_to_7seg'
+INFO: [Project 1-313] Project file moved from 'C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab8/lab8_1_2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:11 . Memory (MB): peak = 858.125 ; gain = 182.035
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 24 17:32:11 2022...

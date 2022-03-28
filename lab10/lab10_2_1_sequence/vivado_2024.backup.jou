@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Mar 26 15:49:32 2022
+# Process ID: 2024
+# Current directory: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16828 C:\Users\yvvan\Documents\Research\Vivado_Verilog_Tutorial\lab10\lab10_2_1\lab10_2_1.xpr
+# Log file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/vivado.log
+# Journal file: C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/lab10_2_1.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source moore_fsm_tb.tcl
+save_wave_config {C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/moore_fsm_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/moore_fsm_tb_behav.wcfg
+set_property xsim.view C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/moore_fsm_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+refresh_design
+launch_simulation
+open_wave_config C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/moore_fsm_tb_behav.wcfg
+source moore_fsm_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/moore_fsm_tb_behav.wcfg
+source moore_fsm_tb.tcl
+close_sim
+refresh_design
+launch_simulation
+open_wave_config C:/Users/yvvan/Documents/Research/Vivado_Verilog_Tutorial/lab10/lab10_2_1/moore_fsm_tb_behav.wcfg
+source moore_fsm_tb.tcl
+close_sim
